@@ -2,9 +2,9 @@
   <img src="https://raw.githubusercontent.com/Funora-Develop/.github/main/assets/funora-javascript.svg" width="76" height="76" alt="">
 </p>
 
-<h1 align="center">Funora for TypeScript</h1>
+<h1 align="center">Funora для TypeScript</h1>
 
-<p align="center"><em>TypeScript source, JavaScript and type declarations on output.</em></p>
+<p align="center"><em>Исходник на TypeScript, на выходе JavaScript и декларации типов.</em></p>
 
 <p align="center">
   <img alt="status" src="https://img.shields.io/badge/status-planned-9AA3AB?style=flat-square">
@@ -13,57 +13,57 @@
   <img alt="FunPay" src="https://img.shields.io/badge/FunPay-unofficial-B4501E?style=flat-square">
 </p>
 
+<p align="center"><a href="README.en.md">English</a></p>
+
 ---
 
-> **Unofficial project.** Funora is not affiliated with, endorsed by, or connected to FunPay.
-> It works against a private web interface that can change at any time without notice.
-> Using it may lead to your account being suspended and your funds frozen — that risk is yours.
-> Read [DISCLAIMER.md](DISCLAIMER.md) before relying on this for anything that earns you money.
+> **Неофициальный проект.** Funora не аффилирована с FunPay, не одобрена ею и никак с ней не связана.
+> Работает с приватным веб-интерфейсом, который может измениться в любой момент без предупреждения.
+> Использование может привести к блокировке аккаунта и заморозке средств — этот риск несёте вы.
+> Прочитайте [DISCLAIMER.md](DISCLAIMER.md) прежде, чем строить на этом то, что приносит вам деньги.
 
-## Status: `planned`
+## Статус: `planned`
 
-Not started. The name and the repository are reserved; work begins once the contract is stable and a maintainer for this language is available. See the roadmap in [Funora](https://github.com/Funora-Develop/Funora).
+Работа не начата. Имя и репозиторий зарезервированы; разработка стартует после стабилизации контракта и появления мейнтейнера на этот язык. Порядок — в [Funora](https://github.com/Funora-Develop/Funora).
 
-## What this is
+## Что это
 
-The second implementation, and the one that proves the specification is unambiguous. Every divergence found while writing it is closed by fixing the spec, not by patching the SDK.
+Вторая реализация — та, что доказывает однозначность спецификации. Каждое расхождение, найденное при её написании, закрывается правкой спецификации, а не заплаткой в SDK.
 
-## The wider project
+## Проект целиком
 
-Funora is one contract implemented natively in several languages. You change the language,
-not the mental model: `Client`, services, events, router, filters, middleware and the error
-taxonomy mean the same thing everywhere.
+Funora — это один контракт, реализованный нативно на нескольких языках. Меняется язык,
+но не ментальная модель: `Client`, сервисы, события, роутер, фильтры, middleware и
+таксономия ошибок означают одно и то же везде.
 
-| Repository | What it is | Status |
+| Репозиторий | Что это | Статус |
 |---|---|---|
-| [Funora](https://github.com/Funora-Develop/Funora) | One contract, one set of test vectors, native SDKs per language. | `design` |
-| [Funora-spec](https://github.com/Funora-Develop/Funora-spec) | The canonical contract every SDK implements. | `design` |
-| [Funora-codegen](https://github.com/Funora-Develop/Funora-codegen) | Generates the boring, repetitive part of every SDK. | `design` |
-| [Funora-conformance](https://github.com/Funora-Develop/Funora-conformance) | The test contract between languages. | `design` |
-| [Funora-python](https://github.com/Funora-Develop/Funora-python) | Reference implementation of the Funora contract. | `design` |
-| [Funora-javascript](https://github.com/Funora-Develop/Funora-javascript) | TypeScript source, JavaScript and type declarations on output. | `planned` |
+| [Funora](https://github.com/Funora-Develop/Funora) | Один контракт, один набор тестовых векторов, нативный SDK на каждый язык. | `design` |
+| [Funora-spec](https://github.com/Funora-Develop/Funora-spec) | Канонический контракт, который реализует каждый SDK. | `design` |
+| [Funora-codegen](https://github.com/Funora-Develop/Funora-codegen) | Генерирует скучную повторяющуюся часть каждого SDK. | `design` |
+| [Funora-conformance](https://github.com/Funora-Develop/Funora-conformance) | Тестовый контракт между языками. | `design` |
+| [Funora-python](https://github.com/Funora-Develop/Funora-python) | Эталонная реализация контракта Funora. | `design` |
+| [Funora-javascript](https://github.com/Funora-Develop/Funora-javascript) | Исходник на TypeScript, на выходе JavaScript и декларации типов. | `planned` |
 | [Funora-java](https://github.com/Funora-Develop/Funora-java) | Java SDK. | `planned` |
 | [Funora-dotnet](https://github.com/Funora-Develop/Funora-dotnet) | .NET SDK. | `planned` |
 | [Funora-cpp](https://github.com/Funora-Develop/Funora-cpp) | C++ SDK. | `planned` |
-| [Funora-c](https://github.com/Funora-Develop/Funora-c) | C SDK — the narrowest contract in the project. | `planned` |
-| [Funora-docs](https://github.com/Funora-Develop/Funora-docs) | Documentation for every SDK, from one source. | `design` |
-| [Funora-examples](https://github.com/Funora-Develop/Funora-examples) | End-to-end examples that CI actually runs. | `planned` |
+| [Funora-c](https://github.com/Funora-Develop/Funora-c) | C SDK — самый узкий контракт в проекте. | `planned` |
+| [Funora-docs](https://github.com/Funora-Develop/Funora-docs) | Документация всех SDK из одного источника. | `design` |
+| [Funora-examples](https://github.com/Funora-Develop/Funora-examples) | Сквозные примеры, которые реально прогоняет CI. | `planned` |
 
-## Contributing
+## Участие в разработке
 
-Read [CONTRIBUTING.md](https://github.com/Funora-Develop/.github/blob/main/CONTRIBUTING.md) first. The project is
-developed in English; issues may be written in Russian.
+Сначала прочитайте [CONTRIBUTING.md](https://github.com/Funora-Develop/.github/blob/main/CONTRIBUTING.md).
 
-The most useful contributions right now are protocol observations, fixtures and
-specification review — not implementation.
+Сейчас полезнее всего не реализация, а наблюдения за протоколом, фикстуры и разбор спецификации.
 
-## Security
+## Безопасность
 
-Never paste a session key, raw signed-in HTML or private chat contents into a public issue.
-A FunPay session key is your entire account. Report privately through
-[Security Advisories](https://github.com/Funora-Develop/Funora/security/advisories/new) and read
-[SECURITY.md](https://github.com/Funora-Develop/.github/blob/main/SECURITY.md).
+Никогда не вставляйте сессионный ключ, сырой HTML со страницы под авторизацией или содержимое
+личной переписки в публичный issue. Сессионный ключ FunPay — это доступ ко всему аккаунту.
+Сообщайте приватно через [Security Advisories](https://github.com/Funora-Develop/Funora/security/advisories/new),
+подробности — в [SECURITY.md](https://github.com/Funora-Develop/.github/blob/main/SECURITY.md).
 
-## License
+## Лицензия
 
 [Apache-2.0](LICENSE) © Funora Contributors
